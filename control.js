@@ -1,3 +1,3 @@
-const ss = require('@simplewebauthn/server')
+const {generateRegistrationOptions} = require('@simplewebauthn/server')
 
-console.log(ss)
+console.log(generateRegistrationOptions)

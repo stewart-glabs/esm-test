@@ -1,3 +1,3 @@
-import * as ss from '@simplewebauthn/server'
+import {generateRegistrationOptions} from '@simplewebauthn/server'
 
-console.log(ss)
+console.log(generateRegistrationOptions)
